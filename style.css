@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(#0000ff 0%, #e34c9d 100%);
+}
+#welcome {
+  width: 100%;
+  height: 100%;
+  display: table;
+  padding-top: 100px;
+}
+
+.banner {
+  width: 600px;
+  border: 2px solid black;
+  padding: 4px;
+}
+.secao-inner {
+  padding-top: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.linha {
+  height: 3px;
+  background-color: black;
+  width: 120px;
+  margin: 10px auto;
+}
+.sobre-inner {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  column-gap: 100px;
+  max-width: 80%;
+  margin: 10px auto 0px auto;
+}
+.sobre-inner p {
+  max-width: 400px;
+  font-size: 20px;
+}
+.banner-da-secao {
+  width: 500px;
+  border: 2px solid black;
+  padding: 4px;
+}
+.menu {
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.link {
+  padding: 5px 9px;
+  font-size: 20px;
+  font-family: fantasy;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.link a {
+  color: rgb(229, 255, 0);
+}
+.link a:hover {
+  color: rgb(171, 129, 255);
+}
+.titulo-sessao {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(208, 222, 33, 1) 20%,
+    rgb(0, 0, 0) 100%
+  );
+}
+.titulo-sessao2 {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 20%,
+    rgba(208, 222, 33, 1) 100%
+  );
+}
+#mapa-de-oregon {
+  width: 100%;
+  background-color: rgba(95, 21, 242, 1);
+  padding: 0 0 50px 0;
+}
+.ancoras a {
+  text-decoration: none;
+  color: aquamarine;
+}
+.ancoras {
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+}
