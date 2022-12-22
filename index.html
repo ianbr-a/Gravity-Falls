@@ -5,12 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gravity Falls</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Ícones font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Fonte Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  
+    <!-- Estilo principal -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="midias/favicon.ico" type="image/x-icon">
+
+    <!-- Estilo Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+
+    <!-- Import: JS -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="midias/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <ul class="menu">
+    <!-- <ul class="menu">
       <li class="link"><a href="#welcome"> Inicial </a></li>
       <li class="link"><a href="#sobre"> Sobre... </a></li>
       <li class="link"><a href="#trailer"> Trailer/Abertura... </a></li>
@@ -20,7 +43,36 @@
       </li>
       <li class="link"><a href="#"> Assistir... </a></li>
       <li class="link"><a href="#contato"> Contato... </a></li>
-    </ul>
+    </ul> -->
+
+    <nav class="navbar-inverse myNavbar menu">
+      <div class="navbar-header">
+        <button
+          class="navbar-toggle"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <span class="icon-bar"> </span>
+          <span class="icon-bar"> </span>
+          <span class="icon-bar"> </span>
+        </button>
+        <a href="#" class="navbar-brand"> Gravity Falls </a>
+      </div>
+      <div class="navbar-collapse collapse" id="myNavbar">
+        <ul class="navbar-nav nav">
+          <li><a href="#welcome"> Inicial </a></li>
+          <li><a href="#sobre"> Sobre... </a></li>
+          <li><a href="#trailer"> Trailer/Abertura... </a></li>
+          <li><a href="#wiki"> Na Wikipedia... </a></li>
+          <li>
+            <a href="#decifrar-codigos"> Decifre os codigos...</a>
+          </li>
+          <li><a href="#"> Assistir... </a></li>
+          <li><a href="#contato"> Contato... </a></li>
+        </ul>
+      </div>
+    </nav>
     <section id="welcome" class="secao-container">
       <div class="secao-inner">
         <img
@@ -101,24 +153,23 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </div>                                                   
-      
+      </div>
     </section>
     <section id="contatos">
       <h2 class="contatos">Contatos do criador</h2>
       <div class="ancoras">
-      <a href="mailto: ianb7795@gmail.com">
-        <i class="fa fa-envelope">
-          &nbsp; &nbsp;
-          <h3>alexH.falls@gmail.com</h3>
-        </i>
-    </a>
-    <a href="https://www.instagram.com/_alexhirsch_/">
-      <i class="fa fa-instagram">
-        &nbsp; &nbsp;
-        <h3>_alexhirsch_</h3>
-      </i>
-    </a>
+        <a href="mailto: ianb7795@gmail.com">
+          <i class="fa fa-envelope">
+            &nbsp; &nbsp;
+            <h3>alexH.falls@gmail.com</h3>
+          </i>
+        </a>
+        <a href="https://www.instagram.com/_alexhirsch_/">
+          <i class="fa fa-instagram">
+            &nbsp; &nbsp;
+            <h3>_alexhirsch_</h3>
+          </i>
+        </a>
       </div>
     </section>
   </body>
